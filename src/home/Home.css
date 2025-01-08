@@ -1,20 +1,20 @@
 
 
 .home {
-    height: 100vh; /* Висота на весь екран */
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-size: cover;
     background-position: center;
-    color: #000; /* Текст чорного кольору за замовчанням */
+    color: #000; 
     transition: background-image 0.3s ease-in-out;
     background-image: url("/public/img_day.jpeg");
   }
   
   .home.dark {
-    color: #fff; /* Текст білого кольору для темної теми */
+    color: #fff; /
     background-image: url("/public/img_night.jpg");
   }
   

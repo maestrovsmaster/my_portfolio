@@ -6,7 +6,7 @@ const Projects = () => {
     <section id="projects" className="projects-section">
       <h2>My Projects</h2>
       <div className="projects-grid">
-        {/* Ви можете додавати свої проекти тут */}
+        {/* Logic... */}
         <div className="project-card">
           <h3>Project 1</h3>
           <p>Description of project 1...</p>

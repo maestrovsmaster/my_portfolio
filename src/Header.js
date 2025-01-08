@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = ({ toggleTheme, isDarkMode }) => {
 
-  const [activeLink, setActiveLink] = useState('#home'); // За замовчанням активний "About Me"
+  const [activeLink, setActiveLink] = useState('#home'); 
 
   const handleLinkClick = (link) => {
     setActiveLink(link);

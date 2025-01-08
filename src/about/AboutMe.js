@@ -1,5 +1,5 @@
 import React from "react";
-import "./AboutMe.css"; // Стилі для AboutMe, якщо потрібно
+import "./AboutMe.css"; 
 
 const AboutMe = ({ isDarkMode }) => {
   return (

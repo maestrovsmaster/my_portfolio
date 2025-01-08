@@ -8,7 +8,7 @@ const Home = ({ isDarkMode }) => {
       className={`home ${isDarkMode ? 'dark' : ''}`}
     >
       <div className="home-content">
-        <h1>Welcome to Maestro Creations</h1>
+        <h1>Welcome to My Page</h1>
         <p>Crafting the digital future</p>
         <div className="social-icons">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">

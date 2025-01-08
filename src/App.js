@@ -16,7 +16,7 @@ function App() {
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
-    document.body.classList.toggle('dark', !isDarkMode); // додає або прибирає клас dark на body
+    document.body.classList.toggle('dark', !isDarkMode); 
     localStorage.setItem('theme', isDarkMode ? 'light' : 'dark');
   };
 

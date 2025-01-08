@@ -15,7 +15,7 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Додавайте логіку відправки форми (наприклад, через Firebase)
+
     alert('Form submitted!');
   };
 
