@@ -1,0 +1,22 @@
+.social-links-section {
+    padding: 50px;
+  }
+  
+  .social-links-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-links-section li {
+    margin-bottom: 10px;
+  }
+  
+  .social-links-section a {
+    text-decoration: none;
+    color: #4a90e2;
+  }
+  
+  .social-links-section a:hover {
+    color: #2a6496;
+  }
+  

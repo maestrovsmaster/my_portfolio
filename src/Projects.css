@@ -1,0 +1,17 @@
+.projects-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .project-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+  }
+  

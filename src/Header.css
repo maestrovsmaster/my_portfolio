@@ -1,0 +1,85 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  color: #000;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.header .theme-toggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* Стилі для хедера в темній темі */
+.header.dark {
+  background-color: #333;
+  color: white;
+}
+
+  nav {
+  
+    text-align: center; /* Центрує навігаційні пункти */
+  }
+
+  .nav-links {
+    list-style: none;
+    padding: 4px;
+    margin: 0;
+    display: inline-flex;
+    gap: 10px;
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+
+  .nav-links a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid transparent; /* Для вибраної кнопки */
+    border-radius: 4px;
+    color: inherit; /* Колір тексту залежить від теми */
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: rgba(0, 0, 255, 0.1); /* Напівпрозоре синє тло при наведенні */
+    color: blue; /* Колір тексту при наведенні */
+  }
+  
+  .nav-links a.active {
+    background-color: blue; /* Тло для вибраної кнопки */
+    color: white; /* Білий текст для вибраної кнопки */
+    border-color: blue;
+  }
+  
+  /* Тема для темного режиму */
+  header.dark .nav-links a {
+    color: #ccc; /* Колір тексту для невибраних кнопок у темній темі */
+  }
+  
+  header.dark .nav-links a.active {
+    background-color: #555; /* Темніше тло для вибраної кнопки у темній темі */
+    color: white;
+    border-color: #555;
+  } 
+
+
+  

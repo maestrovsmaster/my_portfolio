@@ -1,0 +1,73 @@
+.about-section {
+  padding: 40px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.about-section.light {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.about-section.dark {
+  background-color: #333;
+  color: #f9f9f9;
+}
+
+.about-header h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-skills {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.skill-card {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.skill-card:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-5px);
+}
+
+.skill-card i {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.skill-card span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Темна тема для кнопок */
+.skill-card.dark {
+  background-color: #444;
+  color: #fff;
+}
+
+.skill-card.dark:hover {
+  background-color: #555;
+}

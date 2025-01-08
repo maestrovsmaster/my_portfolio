@@ -1,0 +1,18 @@
+.technologies-section {
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .technologies-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .technologies-section ul {
+    list-style-type: none;
+  }
+  
+  .technologies-section li {
+    font-size: 20px;
+  }
+  
